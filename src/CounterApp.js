@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types';
 
 //para la proxima usar el snippet rafcp
 
@@ -35,8 +35,8 @@ const CounterApp = ({value=10})=>{
     )
 }
 
-CounterApp.defaultProps = {
-    value: PropTypes.number
-}
+// CounterApp.defaultProps = {
+//     value: PropTypes.number
+// }
 
 export default CounterApp;
